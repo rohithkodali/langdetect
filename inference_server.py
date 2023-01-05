@@ -30,7 +30,7 @@ clf = pickle.load(open('models/model.pkl', 'rb'))
 labels = pickle.load(open('models/labels.pkl', 'rb'))
 
 #loading fasttext model to show comparison with the classifier and other models available
-fasttext_model = fasttext.load_model('framework/lid.176.bin')
+fasttext_model = fasttext.load_model('lid.176.bin')
 
 @api.post("/predict_framework")
 async def predict_framework(text: str):

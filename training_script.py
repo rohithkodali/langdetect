@@ -116,7 +116,8 @@ for item in train_data:
     features.append(' '.join(item[0]))
     labels.append(item[1])
 # Vectorize the features
-vectorizer = CountVectorizer()
+vectorizer = CountVectorizer()      # alternate features are  fastText, GloVe, or bert Embeddings etc.
+                                    # There are other models available with them. teh approach tried here is very new so used Logistic regression here
 X = vectorizer.fit_transform(features)
 
 #Generating the unique labels for the classifier
