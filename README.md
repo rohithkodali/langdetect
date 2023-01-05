@@ -51,6 +51,10 @@ Simple API specification.
 * The services can be started using python inference_server.py
 * usage: curl -X 'POST' 'http://localhost:8888/langdetect/predict_framework?text=Il%20pr%C3%A9tend%20que%20sa%20pi%C3%A8ce%20n%27est%20pas%20morte' -H 'accept: application/json' -d ''
 
+
+![Demo result](https://github.com/rohithkodali/langdetect/blob/main/demo.png?raw=true "Demo result")
+
+
 Instructions to test the system.
 * Given above as a curl command or http://localhost:8888/langdetect/docs will open oepanapi document reference
 
