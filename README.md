@@ -1,9 +1,10 @@
 # langdetect
 langauge detection algorithm that can be expandable to add any number of languages using BPE/WPE techinique.
 
-For the sake of Large file issue he model needed by fasttext needed to be dowlaod separately
+For the sake of Large file issue the model needed by fasttext needed to be dowlaod separately
 
 wget https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.bin ./
+
 Run pip install -r requirements.txt  to install necessary modules
 
 Brief document listing the key assumptions and design choices you've made (algorithm and models employed, languages supported, etc.)
